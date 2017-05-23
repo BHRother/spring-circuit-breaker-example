@@ -25,7 +25,7 @@ For example, if the maxAttempts is reached inside the openTimeout, then the circ
 
 This is very useful when you are calling a 3rd party and the system is failing the requests. The time of resetTimeout is the time that the system has to recovery (too many request, IO lock or all threads in use, for example).
 
-##About the Example
+## About the Example
 This project is using:
 
 * Spring Boot 1.5.3.RELEASE 
@@ -37,7 +37,7 @@ This Circuit Breaker was implemented on the service *ExternalSystemService*, whe
 
 About the Recover method, it needs to have the same signature (params and return type) that the method to be recovered.
 
-###Running the Example
+### Running the Example
 This project contains an Embedded gradle. 
 In a terminal, navigate to the project folder and run:
 
