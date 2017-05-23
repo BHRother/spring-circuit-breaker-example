@@ -1,8 +1,8 @@
-#Circuit Breakers using Spring Boot + Spring Retry
+# Circuit Breakers using Spring Boot + Spring Retry
 
 This project shows an example of how configure your project to have the CircuitBreaker from Spring Retry using Spring Boot.
 
-###What are Circuit Breakers?
+### What are Circuit Breakers?
 
 * Keep your system working even if some error happens in other services.
 * It's not just a try/catch.
