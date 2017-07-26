@@ -36,7 +36,7 @@ class ExternalSystemService {
    */
   @Recover
   private int fallbackForCall() {
-    log.info("Fallback for call invoked")
+    log.error("Fallback for call invoked")
     return 0
   }
 }
